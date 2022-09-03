@@ -1,0 +1,12 @@
+body {
+  margin: 20px;
+  text-align: center;
+  font-size: 80px;
+  font-family: Georgia, sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
