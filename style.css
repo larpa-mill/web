@@ -1,12 +1,89 @@
-body {
-  margin: 20px;
-  text-align: center;
-  font-size: 80px;
-  font-family: Georgia, sans-serif;
+@font-face{
+  font-family:'Kormelink-Regular';
+  src: url('./assets/WT_Kormelink_Roman_DESK_1.1.otf');
 }
 
+@font-face {
+  font-family: 'monument-grotesk-mono';
+  src: url('./assets/ABCMonumentGroteskSemi-Mono-Medium-Trial.woff');
+}
+
+
+body {
+  /* margin: 20px; */
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Kormelink-Regular',Georgia, sans-serif;
+  font-variant-ligatures: discretionary-ligatures;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+section{
+  width: 100vw;
+  height: 100vh;
+  padding: 2em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#logo{
+  background-color: rgb(75, 47, 186);
+}
+
+h1{
+  font-size: 3em;
+  color: rgb(246, 207, 8);
+
+}
+
+#about{
+
+}
+
+.links{
+  background-color: black;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+
+}
+
+
+
+img{
+  display: inline-block;
+  /* width: 100%; */
+}
+#scroll{
+  width:100px;
+}
+.links a{
+  font-family: 'monument-grotesk-mono';
+  font-size: 1em;
+  color:rgb(246, 207, 8);
+  text-decoration: none;
+}
+
+#larpa a{
+  color: blue;
+}
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+
+}
+
+@media only screen and (max-width: 980px) {
+  body {
+    font-size: 45px;
+    overflow-x: hidden;
+  }
 }
