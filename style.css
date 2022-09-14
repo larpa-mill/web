@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Kormelink-Regular";
   src: url("./assets/WT_Kormelink_Roman_DESK_1.1.otf");
@@ -35,6 +36,7 @@ section {
 
 #logo {
   background-color: rgb(75, 47, 186);
+  padding: 4em;
 }
 
 h1 {
@@ -43,10 +45,12 @@ h1 {
 }
 
 #about {
+  min-height: 100vh;
+  height: auto;
 }
 
 .links {
-  background-color: black;
+  background-color: rgb(75, 47, 186);
   /* display: flex;
   flex-direction: row;
   justify-content: space-between; */
@@ -66,8 +70,13 @@ img {
   text-decoration: none;
 }
 
-#larpa a {
-  color: blue;
+.larpa {
+  color: rgb(98, 185, 232) !important;
+
+}
+
+#studio{
+  background-color: black;
 }
 ul {
   list-style: none;
