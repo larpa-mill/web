@@ -89,7 +89,7 @@ ul {
     font-size: 45px;
     overflow-x: hidden;
   }
-  section {
+  section, #logo {
     padding: 0.5em;
   }
   .links {
