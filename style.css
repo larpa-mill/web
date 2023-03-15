@@ -13,6 +13,7 @@ body {
   /* margin: 20px; */
   text-align: center;
   font-size: 80px;
+  /* line-height: 1.2; */
   font-family: "Kormelink-Regular", Georgia, sans-serif;
   font-variant-ligatures: discretionary-ligatures;
   -ms-overflow-style: none; /* IE and Edge */
@@ -26,7 +27,7 @@ body::-webkit-scrollbar {
 section {
   width: 100vw;
   height: 100vh;
-  padding: 2em;
+  padding: 3em;
   text-align: center;
   display: flex;
   align-items: center;
