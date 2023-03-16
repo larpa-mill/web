@@ -5,15 +5,15 @@
 }
 
 @font-face {
-  font-family: "monument-grotesk-mono";
-  src: url("./assets/ABCMonumentGroteskSemi-Mono-Medium-Trial.woff");
+  font-family: "Kormelink-Italic";
+  src: url("./assets/WT_Kormelink_Italic_1.1.otf");
 }
 
 body {
   /* margin: 20px; */
   text-align: center;
   font-size: 80px;
-  /* line-height: 1.2; */
+  line-height: 1.1;
   font-family: "Kormelink-Regular", Georgia, sans-serif;
   font-variant-ligatures: discretionary-ligatures;
   -ms-overflow-style: none; /* IE and Edge */
@@ -27,7 +27,6 @@ body::-webkit-scrollbar {
 section {
   width: 100vw;
   height: 100vh;
-  padding: 3em;
   text-align: center;
   display: flex;
   align-items: center;
@@ -36,7 +35,8 @@ section {
 }
 
 #logo {
-  background-color: rgb(75, 47, 186);
+  /* background-color: rgb(75, 47, 186); */
+  background: black;
   padding: 4em;
 }
 
@@ -48,24 +48,27 @@ h1 {
 #about {
   min-height: 100vh;
   height: auto;
+  padding: 2em;
 }
 
 .links {
   background-color: rgb(75, 47, 186);
-  /* display: flex;
+  padding: 2em;
+    /* display: flex;
   flex-direction: row;
   justify-content: space-between; */
 }
 
 img {
   display: inline-block;
-  /* width: 100%; */
+  width: 100%;
+  height: 100vh;
 }
 #scroll {
   width: 100px;
 }
 .links a {
-  /* font-family: 'monument-grotesk-mono'; */
+
   font-size: 1em;
   color: rgb(246, 207, 8);
   text-decoration: none;
@@ -73,6 +76,7 @@ img {
 
 .larpa {
   color: rgb(98, 185, 232) !important;
+  font-family: "Kormelink-Italic" ;
 
 }
 
