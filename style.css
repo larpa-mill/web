@@ -36,8 +36,10 @@ section {
 
 #logo {
   /* background-color: rgb(75, 47, 186); */
-  background: black;
-  padding: 4em;
+  background:black url(./assets/larpa_flag_3.png) no-repeat center;
+   background-size: contain;
+
+  /* padding: 1em; */
 }
 
 h1 {
@@ -81,7 +83,8 @@ img {
 }
 
 #studio{
-  background-color: black;
+  background: black url(./assets/studio-2.png) no-repeat center;
+  background-size: contain;
 }
 ul {
   list-style: none;
@@ -91,7 +94,7 @@ ul {
 
 @media only screen and (max-width: 980px) {
   body {
-    font-size: 45px;
+    font-size: 35px;
     overflow-x: hidden;
   }
   section, #logo {
